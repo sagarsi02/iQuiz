@@ -1,0 +1,31 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Poppins:wght@300&family=Roboto+Slab&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    background-color: grey;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.app {
+    min-height: 86.9vh;
+    padding: 25px 0px;
+    background: rgb(74, 148, 215);
+    background: linear-gradient(0deg, rgba(74, 148, 215, 1) 0%, rgba(76, 83, 142, 1) 100%);
+}
+
+.mainImg {
+    padding: 10px 0 5px 0;
+}
